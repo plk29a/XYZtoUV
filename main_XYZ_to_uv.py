@@ -498,7 +498,7 @@ def main():
     os.makedirs(path_save_photo, exist_ok=1)
 
     name = 'labels.csv'
-    result_tst_file = os.path.join(path_save_photo, name)
+    result_tst_file = os.path.join(home_data, 'data' , 'XYZ')
 
     test(path_to_proj, photos_path, path_save_photo, result_tst_file)
 
@@ -507,6 +507,3 @@ def main():
 if __name__ == '__main__':
     main()
     ...
-
-
-
